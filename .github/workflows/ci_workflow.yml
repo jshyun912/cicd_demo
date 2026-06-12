@@ -4,6 +4,7 @@ on: # 이벤트 핸들러
   pull_request:
     branches:
       - 1-비상비상
+      - main
 jobs:
   code-test:
     name: 코드 테스트
