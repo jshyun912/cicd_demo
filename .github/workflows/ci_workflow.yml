@@ -3,6 +3,7 @@ name: ci-workflow.yml # 워크플로를 구분하기 위한 이름
 on: # 이벤트 핸들러
   pull_request:
     branches:
+      - main
       - 1-비상비상
 jobs:
   code-test:
